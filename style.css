@@ -10,7 +10,7 @@ body{
 }
 
 .main-content{
-    background: #9b4848; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 447px;gap: 10px;
+    background: #9b4848; display: flex; flex-direction: column; justify-content: center; align-items: center; width: auto;
 }
 
 .main-content header{
