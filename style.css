@@ -5,13 +5,12 @@
 }
 
 body{
-    overflow-x: hidden;
     background-color: #000000;
 
 }
 
 .main-content{
-    background: #9b4848; display: flex; height: 100vh; flex-direction: column; justify-content: center; align-items: center; gap: 10px;
+    background: #9b4848; display: flex; flex-direction: column; justify-content: center; align-items: center; width: 447px;gap: 10px;
 }
 
 .main-content header{
@@ -66,14 +65,14 @@ body{
 footer{
     display: flex;
     gap: 80px;
-    padding-left: 20px;
-    padding-top: 13px;
     background-color: blue; 
     width: 447px;
-    height: 70px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 35px ;
 }
-
+ 
 footer div i {
-    font-size: 40px;
+    font-size: 30px;
     color: green;
 }
