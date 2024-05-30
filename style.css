@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+body{
+    overflow: hidden;
+    background-color: #000000;
+
+}
+
+.main-content{
+    background: #9b4848; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px;
+}
+
+.main-content header{
+    background-color: #4400ff; width: 447px; height: 60px;
+}
+
+.main-content .corusal{
+   width: 433px;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.content div{
+    border: 2px solid black;
+    width: 160px; height: 148px;
+}
+
+.content .class1{
+    background-image: url('1.png');
+    background-repeat: no-repeat;
+
+}
+.content .class2{
+    background-image: url('4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content .class3{
+    background-image: url('2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content .class4{
+    background-image: url('5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content .class5{
+    background-image: url('3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content .class6{
+    background-image: url('6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    display: flex;
+    gap: 80px;
+    padding-left: 20px;
+    padding-top: 13px;
+    background-color: blue; 
+    width: 447px;
+    height: 70px;
+}
+
+footer div i {
+    font-size: 40px;
+    color: green;
+}
